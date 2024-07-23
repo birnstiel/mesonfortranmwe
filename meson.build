@@ -1,4 +1,4 @@
-project('mwe', 'c')
+project('mesonfortranmwe', 'c')
 add_languages('fortran')
 
 py_mod = import('python')
@@ -17,4 +17,4 @@ incdir_f2py = run_command(py3,
 
 inc_np = include_directories(incdir_numpy, incdir_f2py)
 
-subdir('mwe')
+subdir('mesonfortranmwe')
